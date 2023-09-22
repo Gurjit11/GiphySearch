@@ -1,0 +1,84 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+	background:  #121212;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	padding-top: 50px;
+}
+.logo{
+	width: 100px;
+}
+.js-userinput{
+	background: transparent;
+	color: white;
+}
+
+.container-textinput {
+	width: 70%;
+	display: inline-block;
+	padding: 20px;
+	margin: 0px 10px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+.container-button {
+	width: 10%;
+	display: inline-block;
+	padding: 15px;
+	background-color: rgba(4, 255, 134, 0.71);
+	color: white;
+	font-size: 23px;
+	font-weight: 600;
+	cursor: pointer;
+	font-family: Helvetica, sans-serif;
+	border: 4px solid rgb(117, 64, 224);
+	border-radius: 5px;
+	
+}
+
+.js-container{
+	display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: contain;
+	margin:3%;	
+	width: 300px;
+}
+
+.results{
+	color: turquoise;
+	margin-top: 10px;
+	padding: 5px;
+	position: absolute;
+	right: 370px;
+}
+
+footer{
+	color: turquoise;
+	position: absolute;
+    right: 50px;
+    bottom: 0;
+    height: 60px;
+    overflow: hidden;  /* Height of the footer */
+	font-family: 'Montserrat Alternates', sans-serif;
+
+
+}
+
+a{
+	color: turquoise;
+	text-decoration: none;
+}
